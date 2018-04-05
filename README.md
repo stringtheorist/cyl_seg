@@ -47,10 +47,16 @@ III. USAGE
 <maxit cylinder> : Maximum iterations for segmentation for generation of cylindrical model.  
 <input file> : input .pcd file for cylinder segmentation.
 
-Notes: 
+III.i Notes: 
 1. The program writes two output files output_plane.pcd, and output_cylinder.pcd for the output of plane segmentation (planar inliers)  and cylinder segmentation (cylinder inliers).
 2. The output files are in the .pcd format. 
+
+
 IV. VISUALIZATION
 -----------------
 
-One can use pcl_viewer directly, or the visualize.sh script with the output pcd file as argument to visualize the result. 
+There are two options. One can change directories to the top level directory of the project and 
+run the script run_and_visualize.sh with the same arguments as the cylinder_segmentation executable.
+Otherwise one can use pcl_viewer directly, or the visualize.sh script with the output pcd file 
+as argument to visualize the result. Note that this requires pcl tools to be installed and pcl_viewer
+to be in the PATH.  
