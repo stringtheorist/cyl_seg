@@ -55,8 +55,12 @@ III.i Notes:
 IV. VISUALIZATION
 -----------------
 
-There are two options. One can change directories to the top level directory of the project and 
+There are three options. One can change directories to the top level directory of the project and 
 run the script run_and_visualize.sh with the same arguments as the cylinder_segmentation executable.
 Otherwise one can use pcl_viewer directly, or the visualize.sh script with the output pcd file 
 as argument to visualize the result. Note that this requires pcl tools to be installed and pcl_viewer
 to be in the PATH.  
+
+Also one can use web_pcd_viewer.html to view pcd files in your browser. Once you open this page with 
+your browser you can enter the relative path to your pcd file in order to open it. This will only 
+accept pcd files in ascii or binary formats. Compressed binary formats are currently not supported.
